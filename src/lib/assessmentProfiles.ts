@@ -25,7 +25,6 @@ export const assessmentFieldsByGroup: Record<AgeGroup, AssessmentField[]> = {
       name: "educ_cat",
       label: "Education Category",
       type: "select",
-      helper: "Use the same category scale you used in the child dataset.",
       options: [
         { label: "Low", value: "0" },
         { label: "Medium", value: "1" },

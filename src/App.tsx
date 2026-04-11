@@ -14,7 +14,7 @@ import ForgotPassword from "./pages/auth/ForgotPassword";
 import AgeSelect from "./pages/assessment/AgeSelect";
 import Assessment from "./pages/assessment/Assessment";
 import Results from "./pages/Results";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/DashboardReal";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();

@@ -84,7 +84,7 @@ function Hero() {
             <span className="gradient-text">Cognitive Potential</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="text-xl text-muted-foreground max-w-lg leading-relaxed">
-            Personalized IQ prediction for children, adults, and seniors — powered by Random Forest ML trained on 7,000+ cognitive profiles.
+            Personalized IQ prediction for children, adults, and seniors — powered by Random Forest ML trained.
           </motion.p>
           <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
             <Button size="lg" className="gradient-bg glow-effect text-primary-foreground group" onClick={() => navigate('/auth/signup')}>
@@ -140,7 +140,7 @@ function Features() {
       <div className="container mx-auto px-4 relative z-10">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }} className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">Why Choose <span className="gradient-text">PsychZenith</span></h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Why Choose <span className="gradient-text">IQ Predict</span></h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Combining cognitive science with machine learning to deliver accurate, personalized assessments.
           </p>
@@ -235,7 +235,7 @@ function DatasetShowcase() {
           className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">Built on <span className="gradient-text">Real Data</span></h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Our ML model was trained on 3 cleaned, normalized datasets covering 7,164 participants
+            Our ML model was trained on 3 cleaned, normalized datasets
           </p>
         </motion.div>
         <div className="grid md:grid-cols-3 gap-6">
